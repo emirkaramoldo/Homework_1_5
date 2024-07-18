@@ -8,6 +8,7 @@ public class Boss {
     public int getHealth(){return this.health;}
     public int getDamage(){return this.damage;}
     public String getDefenceType(){return this.defenceType;}
+
     public void setHealth(int newHealth){
         if (newHealth > 0) {
             this.health = newHealth;

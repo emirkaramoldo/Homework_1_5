@@ -15,7 +15,20 @@ public class Hero {
         this.damage = damage;
     }
 
-    public int getHealth(){return this.health;}
-    public int getDamage(){return this.damage;}
-    public String getUltimate(){return this.ultimate;}
+    public int getHealth() {
+        return this.health;
+    }
+
+    public int getDamage() {
+        return this.damage;
+    }
+
+    public String getUltimate() {
+        return this.ultimate;
+    }
+
+    @Override
+    public String toString() {
+        return "Hero [health=" + health + ", damage=" + damage + ", ultimate=" + ultimate + "]";
+    }
 }
